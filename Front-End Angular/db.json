@@ -1,0 +1,36 @@
+{
+    "parks": [
+        {
+            "id": 1,
+            "name": "Cartaland",
+            "city": "Pescheria di Carta",
+            "theme": "Avventura",
+            "attractions": "Per bambini",
+            "image": "https://www.tomshw.it/images/images/2021/06/gardaland-miniland-166311.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Cartaland",
+            "city": "Simone",
+            "theme": "Avventura",
+            "attractions": "Estreme",
+            "image": "https://www.cyberludus.com/content/uploads/2021/03/gardaland-riapertura-2021.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Mirabollandia",
+            "city": "Cotenna",
+            "theme": "Acquatico",
+            "attractions": "Per bambini, Moderate",
+            "image": "https://i.pinimg.com/originals/91/19/8a/91198a05e57a5057b962ccb079cef031.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Fuori di Testa",
+            "city": "Tonino",
+            "theme": "Alpino",
+            "attractions": "Estreme",
+            "image": "https://citynews-trevisotoday.stgy.ovh/~media/11220003500962/pianezzeavventura2-2.jpg"
+        }
+    ]
+}

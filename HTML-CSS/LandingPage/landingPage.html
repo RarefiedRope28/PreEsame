@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Lista parchi</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="mb-5 row">
+            <h1>Cartaland estreme</h1>
+            <div class="col-sm-9">
+                <img src="../assets/gardaland-estreme.jpg" class="card-img-top" alt="Gardaland espreme">
+                <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor error enim quas,
+                    doloribus asperiores,
+                    eum impedit tenetur aliquid voluptates recusandae sed laboriosam nulla iusto id ad earum qui ducimus
+                    ab!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet deserunt nisi aspernatur, alias
+                    nesciunt ducimus ex dolores saepe, aliquid sint enim. Fugit, voluptatum corporis. Perspiciatis modi
+                    enim
+                    est laboriosam?</p>
+            </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="mt-5 mb-3">
+                        <label for="nameSurname" class="form-label">Cognome Nome</label>
+                        <input type="text" class="form-control" id="nameSurname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 row">
+                        <div class="col-sm-6">
+                            <label>Adulti</label>
+                            <input type="number" class="form-control" id="adults">
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Bambini</label>
+                            <input type="number" class="form-control" id="children">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-5 offset-3 col-sm-6 tex-center">Prenota ora</button>
+                </form>
+            </div>
+        </div>   
+        <hr class="mb-3">
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/gardaland-bambini.jpg" class="card-img-top" alt="Gardaland per bambini">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartaland per bambini</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/mirabilandia.jpg" class="card-img-top" alt="Mirabollandia">
+                    <div class="card-body">
+                        <h5 class="card-title">Mirabollandia</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/fuori-di-testa.jpg" class="card-img-top" alt="Fuori di Testa">
+                    <div class="card-body">
+                        <h5 class="card-title">Fuori di Testa</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

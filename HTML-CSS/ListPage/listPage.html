@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="listPage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Lista parchi</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="m-5">
+        <h1>Parchi divertimento tematici in Italia</h1>
+        <h4 class="order">Vicinanza ↓</h4>
+        <div class="row mb-3">
+            <div class="col-sm-2">
+                <aside>
+                    <div class="card">
+                        <article class="card-group-item">
+                            <header class="card-header">
+                                <h6 class="title">Tema </h6>
+                            </header>
+                            <div class="filter-content">
+                                <div class="card-body">
+                                    <form>
+                                        <label class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="adventure">
+                                            <span class="form-check-label">
+                                                Avventura
+                                            </span>
+                                        </label>
+                                        <label class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="aquatic">
+                                            <span class="form-check-label">
+                                                Acquatico
+                                            </span>
+                                        </label>
+                                        <label class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="apline">
+                                            <span class="form-check-label">
+                                                Alpino
+                                            </span>
+                                        </label>
+                                    </form>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card-group-item">
+                            <header class="card-header">
+                                <h6 class="title">Tipo </h6>
+                            </header>
+                            <div class="filter-content">
+                                <div class="card-body">
+                                    <label class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadio"
+                                            value="forChildren">
+                                        <span class="form-check-label">
+                                            Per bambini
+                                        </span>
+                                        <span class="float-right badge badge-light round">2</span>
+                                    </label>
+                                    <label class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadio"
+                                            value="extreme">
+                                        <span class="form-check-label">
+                                            Estreme
+                                        </span>
+                                        <span class="float-right badge badge-light round">2</span>
+                                    </label>
+                                    <label class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadio"
+                                            value="moderate">
+                                        <span class="form-check-label">
+                                            Moderate
+                                        </span>
+                                        <span class="float-right badge badge-light round">1</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="col-sm-10">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/gardaland-bambini.jpg" class="card-img-top" alt="Gardaland per bambini">
+                            <div class="card-body">
+                                <h5 class="card-title">Cartaland</h5>
+                                <p class="card-text">This is a longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/gardaland-estreme.jpg" class="card-img-top" alt="Gardaland estreme">
+                            <div class="card-body">
+                                <h5 class="card-title">Cartaland</h5>
+                                <p class="card-text">This is a longer card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/mirabilandia.jpg" class="card-img-top" alt="Mirabollandia">
+                            <div class="card-body">
+                                <h5 class="card-title">Mirabollandia</h5>
+                                <p class="card-text">This is a longer card..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/fuori-di-testa.jpg" class="card-img-top" alt="Fuori di Testa">
+                            <div class="card-body">
+                                <h5 class="card-title">Fuori di Testa</h5>
+                                <p class="card-text">This is a longer card.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
